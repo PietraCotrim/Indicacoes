@@ -1,0 +1,185 @@
+body{
+    font-family: arial;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000a23;
+    color:white;
+    text-align: center;
+    background-image:url("../Imagens/fundo.png") ;
+}
+
+h1{
+    text-align: left;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000a23;
+    width: 100%;
+    height: 30rem;
+}
+
+header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background-color:#000a23;
+    width:100%;
+    height:20rem;
+}
+
+.topo h1{
+    font-size:3rem;
+}
+
+.topo p{
+    font-size:1.2rem;
+    margin: top 1rem;;
+}
+
+.topo{
+    margin-top:5rem;
+}
+
+.menu{
+    position:fixed;
+    top:0;
+    background-color:#000a23;
+    width:100%;
+    z-index:1000;
+}
+
+.menu ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap:5rem;
+    list-style:none;
+    margin-top:20px;
+    border-top: solid white 0.1rem;
+    border-bottom: solid white 0.1rem;
+
+}
+
+.menu li{
+    padding: 1rem;
+}
+
+.menu a{
+    text-decoration:none;
+    color:white;
+    font-size:1.2rem;
+}
+
+.menu a:hover{
+    color:grey;
+}
+#musicas,
+#series,
+#filmes{
+    scroll-margin-top: 10rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main img{
+    border-radius: 1rem;
+    width: 15rem;
+    height: 16rem;
+}
+
+.Filmes ul,
+.Series ul,
+.Musicas ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50rem;
+    gap: 2rem;
+}
+
+.Filmes li,
+.Series li,
+.Musicas li{
+    max-width: 15rem;
+    min-width: 15rem;
+    flex: 0 0 auto;
+}
+
+.titulo{
+    font-size: 1.5rem;
+}
+
+.sinopse{
+    text-align: justify;
+    padding-top: 1rem;
+    background-color: #000a23;
+}
+
+.cat p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 0%;
+}
+
+.icons{
+    font-size: 2rem;
+        background-color: #000a23;
+
+}
+
+.avaliacao{
+    margin-top: 0.5rem;
+    background-color: #000a23;
+}
+.avaliacao i {
+    padding: 0.5rem;
+}
+
+.stream{
+    margin-top: 0.5rem;
+}
+
+.stream img{
+    width: 6rem;
+    height: 3rem;
+}
+
+.carrossel{
+    display:flex;
+    align-items:center;
+    position:relative;
+}
+
+.carrossel ul{
+    display:flex;
+    gap:2rem;
+    overflow-x:auto;
+    scroll-behavior:smooth;
+    list-style:none;
+}
+
+.carrossel ul::-webkit-scrollbar{
+    display:none;
+}
+
+.btn{
+    background:none;
+    border:none;
+    font-size:2rem;
+    cursor:pointer;
+    padding:10px;
+    height: 30rem;
+    color: white;
+
+}
+

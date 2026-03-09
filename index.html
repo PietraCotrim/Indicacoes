@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Pietra" />
+    <meta name="keywords" content="HTML 5, css e semantica" />
+    <meta name ="description" content = "Programação html, Layout.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inicial</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+    <div class="topo">
+        <h1>Lista de Favoritos da Pietra</h1>
+        <p>Minhas músicas, séries e filmes favoritos</p>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#musicas">Músicas</a></li>
+        <li><a href="#series">Séries</a></li>
+        <li><a href="#filmes">Filmes</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+    <div class="categorias">
+        <div class="Musicas" id="musicas">
+            <h1>Musicas</h1>
+            <div class="carrossel">
+
+            <button class="btn esquerda" onclick="moverEsquerda('listarMusicas')">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+        
+        <ul id="listarMusicas">
+             <li>
+                <img src="Imagens/henriqueJuliano.jpeg">
+                <div class="titulo">
+                    Tá namorando e me querendo - Henrique e Juliano
+                </div>
+                <div class="cat">
+                    <p>Categoria: Sertanejo</p>
+                </div>
+                <div class="link">
+                    <p>Disponivel:</p> 
+                    <div class=icons>
+                        <i class="bi bi-youtube"></i>
+                        <i class="bi bi-spotify"></i>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="Imagens/venere.jpeg">
+                <div class="titulo">
+                    Anjos - Venere Vai Venus
+                </div>
+                <div class="cat">
+                    <p>Categoria: Rock</p>
+                </div>
+                 <div class="link">
+                    <p>Disponivel:</p> 
+                    <div class=icons>
+                        <i class="bi bi-youtube"></i>
+                        <i class="bi bi-spotify"></i>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="Imagens/grupomaisoumenos.jpeg">
+                <div class="titulo">
+                    P do pecado - Grupo menos é mais
+                </div>
+                <div class="cat">
+                    <p>Categoria: Pagode</p>
+                </div>
+                 <div class="link">
+                    <p>Disponivel:</p> 
+                    <div class=icons>
+                        <i class="bi bi-youtube"></i>
+                        <i class="bi bi-spotify"></i>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="Imagens/countrybeat.jpeg">
+                <div class="titulo">
+                    Apaixona muita gente - CountryBeat & Rionegro e Solimões
+                </div>
+                <div class="cat">
+                    <p>Categoria: Sertanejo</p>
+                </div>
+                 <div class="link">
+                    <p>Disponivel:</p> 
+                    <div class=icons>
+                        <i class="bi bi-youtube"></i>
+                        <i class="bi bi-spotify"></i>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="Imagens/joaoboscoevinicius.jpeg">
+                <div class="titulo">
+                    Chora, me liga - João Bosco e Vinicius
+                </div>
+                <div class="cat">
+                    <p>Categoria: Sertanejo</p>
+                </div>
+                 <div class="link">
+                    <p>Disponivel:</p> 
+                    <div class=icons>
+                        <i class="bi bi-youtube"></i>
+                        <i class="bi bi-spotify"></i>
+                    </div>
+                </div>
+            </li>
+                
+
+        </ul>
+        <button class="btn direita" onclick="moverDireita('listarMusicas')">
+        <i class="bi bi-chevron-right"></i>
+    </button>
+    </div>
+
+    
+    <div class="Series" id="series">
+        <h1>Series</h1>
+        <div class="carrossel">
+
+            <button class="btn esquerda" onclick="moverEsquerda('listarSeries')">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+        <ul id="listarSeries">
+            <li>
+                <img src="Imagens/greys.jpeg">
+                <div class="titulo">
+                    Greys Anatomy
+                </div>
+                <div class="sinopse">
+                    Grey's Anatomy acompanha a vida pessoal e profissional de médicos do hospital enquanto enfrentam desafios médicos, emocionais e relacionamentos complexos.
+                </div>
+                <div class="avaliacao">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                </div>
+                <div class="stream">
+                    <img src="Imagens/disney.jpeg">
+                </div>
+            
+            </li>
+            <li>
+                <img src="Imagens/brooklyn.jpeg">
+                <div class="titulo">
+                    Brooklyn 99
+                </div>
+                <div class="sinopse">
+                    Brooklyn Nine-Nine acompanha o cotidiano de um grupo de detetives de uma delegacia do Brooklyn enquanto resolvem crimes com muito humor e situações caóticas.
+                </div>
+                <div class="avaliacao">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <div class="stream">
+                    <img src="Imagens/netflix.jpg">
+                </div>
+            </li>
+            <li>
+                <img src="Imagens/rookie.jpeg">
+                <div class="titulo">
+                    The rookie
+                </div>
+                <div class="sinopse">
+                    The Rookie acompanha John Nolan, um homem que decide recomeçar a vida tornando-se o policial novato mais velho da polícia de Los Angeles. 
+                </div>
+                <div class="avaliacao">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                </div>
+                <div class="stream">
+                    <img src="Imagens/netflix.jpg">
+                </div>
+            </li>
+            <li>
+                <img src="Imagens/supernatural.jpeg">
+                <div class="titulo">
+                    Supernatural
+                </div>
+                <div class="sinopse">
+                    Supernatural acompanha os irmãos Sam Winchester e Dean Winchester, que viajam pelos EUA caçando criaturas sobrenaturais e enfrentando forças demoníacas.
+                </div>
+                <div class="avaliacao">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                </div>
+                <div class="stream">
+                    <img src="Imagens/hbo.jpeg">
+                </div>
+            </li>
+            <li>
+                <img src="Imagens/castle.jpeg">
+                <div class="titulo">
+                    Castle
+                </div>
+                <div class="sinopse">
+                    Castle acompanha o escritor Richard Castle, que ajuda a detetive Kate Beckett a resolver crimes enquanto usa os casos como inspiração para seus livros.
+                </div>
+                <div class="avaliacao">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                    </div>
+                <div class="stream">
+                    <img src="Imagens/disney.jpeg">
+                </div>
+            </li>
+
+        </ul>
+        <button class="btn direita" onclick="moverDireita('listarSeries')">
+<i class="bi bi-chevron-right"></i>
+</button>
+    </div>
+        <div class="Filmes" id="filmes">
+        <h1>Filmes</h1>
+        <div class="carrossel">
+
+<button class="btn esquerda" onclick="moverEsquerda('listarFilmes')">
+<i class="bi bi-chevron-left"></i>
+</button>
+        <ul id="listarFilmes">
+
+            <li>
+                <img src="Imagens/avengers1.jpeg">
+                <div class="titulo">
+                    The avengers 
+                </div>
+                <div class="sinopse">
+                    The Avengers reúne vários heróis da S.H.I.E.L.D. para unir forças e impedir que Loki conquiste a Terra.
+                </div>
+                <div class="avaliacao">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <div class="stream">
+                    <img src="Imagens/disney.jpeg">
+                </div>
+            
+            </li>
+            <li>
+                <img src="Imagens/avengers2.jpeg">
+                <div class="titulo">
+                    Avengers - Age of Ultron
+                </div>
+                <div class="sinopse">
+                    Avengers: Age of Ultron mostra os Avengers lutando para impedir que a inteligência artificial Ultron destrua a humanidade.
+                </div>
+                <div class="avaliacao">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                </div>
+                <div class="stream">
+                    <img src="Imagens/disney.jpeg">
+                </div>
+            </li>
+            <li>
+                <img src="Imagens/avengers3.jpeg">
+                <div class="titulo">
+                    Avengers - Infinity War
+                </div>
+                <div class="sinopse">
+                    Avengers: Infinity War mostra os Avengers tentando impedir Thanos de reunir as Infinity Stones para destruir metade do universo.
+                </div>
+                <div class="avaliacao">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <div class="stream">
+                    <img src="Imagens/disney.jpeg">
+                </div>
+            </li>
+            <li>
+                <img src="Imagens/avengers4.jpeg">
+                <div class="titulo">
+                    Avengers - Endgame
+                </div>
+                <div class="sinopse">
+                    Avengers: Endgame mostra os Avengers tentando reverter o estalo de Thanos e salvar o universo.
+                </div>
+                <div class="avaliacao">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <div class="stream">
+                    <img src="Imagens/disney.jpeg">
+                </div>
+            </li>
+            <li>
+                <img src="Imagens/homemFerro1.jpeg">
+                <div class="titulo">
+                    Iron Man 1
+                </div>
+                <div class="sinopse">
+                   Iron Man mostra Tony Stark criando uma armadura tecnológica e se tornando o herói Iron Man para combater ameaças.
+                </div>
+                <div class="avaliacao">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <div class="stream">
+                    <img src="Imagens/disney.jpeg">
+                </div>
+            </li>            <li>
+                <img src="Imagens/homemFerro2.jpeg">
+                <div class="titulo">
+                    Iron Man 2 
+                </div>
+                <div class="sinopse">
+                    Iron Man 2 mostra Tony Stark lidando com problemas causados pela sua tecnologia enquanto enfrenta novos inimigos que querem destruir o Iron Man.
+                </div>
+                <div class="avaliacao">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                </div>
+                <div class="stream">
+                    <img src="Imagens/disney.jpeg">
+                </div>
+            
+            </li>
+        </ul>
+        <button class="btn direita" onclick="moverDireita('listarFilmes')">
+<i class="bi bi-chevron-right"></i>
+</button>
+
+    </div>
+    </div>
+    </div>
+    </main>
+    <script>
+
+function moverEsquerda(id){
+    const container = document.getElementById(id);
+    container.scrollBy({
+        left: -800,
+        behavior: "smooth"
+    });
+}
+
+function moverDireita(id){
+    const container = document.getElementById(id);
+    container.scrollBy({
+        left: 800,
+        behavior: "smooth"
+    });
+}
+
+</script>
+</body>
