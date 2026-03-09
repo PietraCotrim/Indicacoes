@@ -133,7 +133,7 @@ main img{
 
 .icons{
     font-size: 2rem;
-        background-color: #000a23;
+    background-color: #000a23;
 
 }
 
@@ -183,3 +183,90 @@ main img{
 
 }
 
+footer {
+    background-color: #000a23;
+    font-size: 1.5rem;
+    color:white;
+}
+
+footer i{
+    color:white;
+}
+
+@media (max-width: 768px) {
+
+.topo h1{
+    font-size: 2rem;
+    padding: left 1rem right 1rem;
+}
+
+.topo p{
+    padding: left 1rem right 1rem;
+}
+.menu ul{
+    padding: 0%;
+}
+
+.categorias h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.carrossel ul,
+.Filmes ul,
+.Series ul,
+.Musicas ul{
+    margin: 0%;
+    padding: 0%;
+    flex-wrap: wrap;
+    overflow-x: visible;
+    justify-content: center;
+    width: 100%;
+    gap:0.5rem;
+}
+
+.Filmes li,
+.Series li,
+.Musicas li{
+    max-width: 10rem;
+    min-width: 10rem;
+}
+
+main img{
+    width: 10rem;
+    height: 11rem;
+}
+
+.titulo{
+    font-size: 0.9rem;
+}
+
+.sinopse{
+    font-size: 0.8rem;
+}
+
+.cat p{
+    font-size: 0.9rem;
+}
+
+.icons{
+    font-size: 1.2rem;
+}
+
+.btn{
+    height: 12rem;
+}
+
+.menu ul{
+    gap: 1.5rem;
+}
+
+.btn{
+    display: none;
+}
+
+footer{
+    font-size: 1rem;
+}
+
+}
